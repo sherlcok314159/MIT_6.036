@@ -1,5 +1,5 @@
 ### Multiplication
-*1.* *Hadamard product（哈达玛积）*
+**1.Hadamard product（哈达玛积)**
 
 **形式：**
 
@@ -22,7 +22,7 @@
 *c' = a' * b' = [[1,-2,3],[24,35,48]]*
 
 ***
-*2. Dot product（点积）*
+**2. Dot product（点积)**
 
 **形式：**
 
