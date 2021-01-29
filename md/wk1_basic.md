@@ -22,6 +22,17 @@
 
 *Random_Lin_Classifier*
 
+*Density Estimation*
+
+*Clustering*
+
+*IID*
+
+*Expected Loss*
+
+*Risk*
+
+*Optimization*
 ****
 
 *重要概念*
@@ -47,3 +58,4 @@
 ***Apply the Algorithm to data***
 
 ***Validate the resulting solution to decide whether it is good enough to use***
+
