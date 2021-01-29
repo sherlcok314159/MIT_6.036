@@ -5,10 +5,13 @@
 
 * *Week1:Basics*
   
-  * *[basic_concepts](md/wk1_basic.md)*
-  * *[exercises_hyperplanes](md/wk1_exercises.md)*
+  * *[Basic_Concepts](md/wk1_basic.md)*
+  * *[Exercises_Hyperplanes](md/wk1_exercises.md)*
 
 
 * *Also need to know*
-   
-   * *[different multiplication](md/multiplication.md)*
+   * *[Numpy](md/numpy.md)*
+   * *[Matrix](md/matrix.md)*
+
+* *what's more*
+   * *[MIT_mean](md/MIT.md)*
