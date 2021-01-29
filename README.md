@@ -1,6 +1,8 @@
 # ML_learn
-每天所学ML的简要总结
+记录我在 *MIT 6.036* 中所学所思
 
 ## 目录
 
-* [ML简介](md/intro.md)
+* *Week1:Basics*
+  
+  * *[basic_concepts](md/wk1_basic.md)*
