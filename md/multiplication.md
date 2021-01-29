@@ -9,4 +9,5 @@
 
 >*a,b 都是 i x j 的同阶矩阵*
 >
->![](https://github.com/sherlcok314159/ML_LEARN/main/Images/Hadamard.jpg)
+>
+![](https://github.com/sherlcok314159/ML_LEARN/main/Images/Hadamard.jpg)
