@@ -36,6 +36,13 @@ print(np.shape(a))
 b = np.array([[1,2,3],[4,5,6]])
 print(np.shape(b))
 #(2,3)
+#改变属性
+c = b.reshape(3,2)
+print(c)
+#[[1 2]
+# [3 4]
+# [5 6]]
+#需要注意的是，原先的矩阵不会发生改变，需要重新赋一个
 ```
 
 *4.矩阵相乘*
@@ -47,6 +54,12 @@ print(np.dot(a.T,b))
 # [ 8 10 12]
 # [12 15 18]]
 #注意满足列数等于行数
+data = np.transpose(np.array([[1, 2], [1, 3], [2, 1], [1, -1], [2, -1]]))
+th = np.array([[1], [1]])
+th0 = -2
+def signed_dist(x, th, th0):
+    return (np.dot(th.T, x) + th0) / length(th)
+#注意，这里是矩阵整体运算，而不是单指某个元素
 ```
 
 *5.返回判断正负性*
@@ -72,6 +85,12 @@ print(np.sum(a,axis = 1))
 #[6,15] 
 #看最里面的中括号，里面的元素是不是一个为1，2，3.另一个是4，5，6，那元素之间进行求和，两者互不干扰
 #同样的axis原则适用于np其他函数
+test = [[ True  True False False  True]]
+print(np.sum(test,axis = 1))
+#[3]
+print(np.sum(test,axis = 1,keepdims = True))
+#[[3]]
+#记住sum之后会清除axis确定的维度，如果需要保留，需要将keepdims = True
 ```
 
 *7.索引与切片*
@@ -112,4 +131,53 @@ print(np.sum(a * a)**0.5)
 #与求向量的模类似
 ```
 
-*10.*
+*10.布尔值判断*
+```python
+g = np.array([[1.,-1.,1.,1.,-1.]])
+labels = np.array([[1.,-1.,-1.,-1.,-1.]])
+print(g == labels)
+#[[ True  True False False  True]]
+#需要注意的是，numpy对布尔值也可以求和，
+print(np.sum(g == labels))
+#3
+True = 1,False = 0
+#还可以一对多布尔值判断
+print(np.array([[1,2,3,4]]) == 1)
+#[[ True False False False]]
+```
+
+*11.返回最大值索引*
+```python
+a = np.argmax(np.array([[1,2,3,4,5,6]]))
+print(a)
+#5
+```
+
+*12.分割处理*
+```python
+a = np.array([[1,2,3,4,5],[6,7,8,9,0]])
+print(np.array_split(a,5,axis = 1))
+
+#[array([[1],
+#        [6]]), array([[2],
+#        [7]]), array([[3],
+#        [8]]), array([[4],
+#        [9]]), array([[5],
+#        [0]])]
+#axis不再赘言，split之后会产生列表，跟Python语法一样的
+```
+
+*13.合成*
+
+```python
+a = np.array([[1]])
+b = np.array([[2]])
+print(np.concatenate((a,b),axis = 1))
+#[[1 2]]
+b = np.array([[1,2,3,4,5],[6,7,8,9,0]])
+b_div = np.array_split(b,5,axis = 1)
+
+print(np.concatenate(b_div[0:3]+b_div[4:],axis = 1))
+#[[1 2 3 5]
+# [6 7 8 0]]
+```

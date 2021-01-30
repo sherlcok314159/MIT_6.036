@@ -7,6 +7,10 @@
   
   * *[Basic_Concepts](md/wk1_basic.md)*
   * *[Exercises_Hyperplanes](md/wk1_exercises.md)*
+* *Week2:Perceptron*
+  
+  * *[Basic_Concepts](md/wk2_basic.md)*
+  * *[Exercises_Perceptrons](md/wk2_exercises.md)*
 
 
 * *Also need to know*
