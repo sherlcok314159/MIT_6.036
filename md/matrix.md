@@ -76,5 +76,5 @@ print(th0s + o)
 array([[ True, False, False],
        [False,  True, False],
        [False, False,  True]])
-#类似上面的逻辑，行数为1，那就遍历列数，比如B的第一个元素1，1 == 1，1 ！= 2，1 ！= 3
+#类似上面的逻辑，行数为1，那就遍历列数，比如B的第一个元素1，1 == 1，1 ！= 2，1 != 3
 ```
