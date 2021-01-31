@@ -4,4 +4,4 @@
 
 *Q2:What is Polynormial Basis?*
 
-*Q3:How can we deal with the discrete features?*
+*Q3:How to deal with the discrete features?*
