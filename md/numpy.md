@@ -209,3 +209,13 @@ print(test + 1)
 print(test == 2)
 #[[False True False]]
 ```
+
+*16.注意点*
+```python
+data = [[1,2,3],[4,5,6]]
+print(data[:,0:1])
+#TypeError: list indices must be integers or slices, not tuple
+
+#因为你没有用np.array
+data = np.array([[1,2,3],[4,5,6]])
+```
