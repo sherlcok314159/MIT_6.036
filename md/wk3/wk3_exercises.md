@@ -4,4 +4,4 @@
 
 *Q3:When it comes to high dimensions,what will happen?*
 
-*Q4: *
+*Q4:How to implement one-hot encoding?*

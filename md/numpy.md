@@ -98,7 +98,11 @@ print(np.sum(test,axis = 1,keepdims = True))
 a = np.array([[1,2,3],[4,5,6]])
 print(a[0])
 #[1,2,3] 
-#可以理解为两个小列表作为一个大列表的元素
+b = np.array([[1,2,3,1,4]])
+print(b[2])
+#IndexError: index 2 is out of bounds for axis 0 with size 1
+
+#整数索引时以里面的小列表为元素，另外注意行向量于列向量的区别
 print(a[0:1])
 #[[1,2,3]]
 print(a[:,2:])
