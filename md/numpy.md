@@ -181,3 +181,18 @@ print(np.concatenate(b_div[0:3]+b_div[4:],axis = 1))
 #[[1 2 3 5]
 # [6 7 8 0]]
 ```
+
+*14.生成特定向量*
+```python
+# 没有加维度，默认一维
+print(np.zeros(5))
+# [0. 0. 0. 0. 0.]
+# 可以设置维度
+print(np.zeros((2, 1)))
+#[[0.]
+# [0.]]
+# 改变元素类型
+print(np.zeros((2, 1), dtype=int))
+#[[0]
+# [0]]
+```
