@@ -178,6 +178,15 @@ t3 = np.array([[1, 2, 3, 4]])
 print(np.equal(t2,t3))
 #[[ True  True  True  True]]
 #同型矩阵用equal
+
+#注意如果是矩阵与单元素判断，矩阵元素个数必须等于1
+
+if np.array([[1]]) > 0:
+   print(1)
+#1
+if np.array([[1,2]]) > 0:
+   print(2)
+#ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()  
 ```
 
 *11.返回最大值索引*
