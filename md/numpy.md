@@ -11,7 +11,7 @@ print(np.array([1,2,3]))
 print(np.array([[1,2,3]]))
 #2 dimensions [[1,2,3]]
 ```
-***
+
 
 *2.转置矩阵*
 ```python
