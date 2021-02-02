@@ -173,6 +173,11 @@ print(t1 == t2)
 # DeprecationWarning: elementwise comparison failed; this will raise an error in the future.
 #  print(t1 == t2)
 #  False
+
+t3 = np.array([[1, 2, 3, 4]])
+print(np.equal(t2,t3))
+#[[ True  True  True  True]]
+#同型矩阵用equal
 ```
 
 *11.返回最大值索引*
