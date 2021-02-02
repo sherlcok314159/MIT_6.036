@@ -31,7 +31,11 @@ print(b.T)
 #1 dimension
 a = np.array([1,2,3])
 print(np.shape(a))
+print(a.shape)
 #(3,) 
+#(3,) 
+
+#需要注意有两种方式表达
 #2 dimensions
 b = np.array([[1,2,3],[4,5,6]])
 print(np.shape(b))
