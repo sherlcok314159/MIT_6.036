@@ -158,6 +158,11 @@ True = 1,False = 0
 #还可以一对多布尔值判断
 print(np.array([[1,2,3,4]]) == 1)
 #[[ True False False False]]
+
+if np.array([[1]]) == 1:
+    print("yep!")
+#yep!
+#需要注意的是虽然是一个列表，在条件判断上可以等价为单独的True or False    
 ```
 
 *11.返回最大值索引*
