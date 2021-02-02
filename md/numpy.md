@@ -54,6 +54,8 @@ print(c)
 a = np.array([[1,2,3]])
 b = np.array([[4,5,6]])
 print(np.dot(a.T,b))
+print(a.T @ b)
+#两者结果一样
 #[[ 4  5  6]
 # [ 8 10 12]
 # [12 15 18]]
@@ -163,6 +165,14 @@ if np.array([[1]]) == 1:
     print("yep!")
 #yep!
 #需要注意的是虽然是一个列表，在条件判断上可以等价为单独的True or False    
+
+#如果判断的两个列表长度不一样，会单独False，而且会警告
+t1 = np.array([[1, 2, 3]])
+t2 = np.array([[1, 2, 3, 4]])
+print(t1 == t2)
+# DeprecationWarning: elementwise comparison failed; this will raise an error in the future.
+#  print(t1 == t2)
+#  False
 ```
 
 *11.返回最大值索引*
