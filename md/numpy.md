@@ -248,6 +248,11 @@ test = np.array([[1,2,3]])
 print(test + 1)
 #[[2 3 4]]
 
+a = np.array([[1]])
+b = np.array([[1, 2, 3]])
+print(a + b)
+#[[2 3 4]]
+
 #矩阵所有元素与一个值做判断
 print(test == 2)
 #[[False True False]]
