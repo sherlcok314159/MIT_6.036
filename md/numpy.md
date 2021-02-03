@@ -32,10 +32,14 @@ print(b.T)
 a = np.array([1,2,3])
 print(np.shape(a))
 print(a.shape)
-#(3,) 
-#(3,) 
-
 #需要注意有两种方式表达
+#(3,) 
+#(3,) 
+print(a.shape[0])
+#3
+print(type(a.shape))
+#<class 'tuple'>,元组是支持索引的
+
 #2 dimensions
 b = np.array([[1,2,3],[4,5,6]])
 print(np.shape(b))
