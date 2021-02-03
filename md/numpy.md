@@ -305,3 +305,18 @@ print(lis)
 #需要注意的是shuffle是作用于列表，所以，列表是动态修改的，如果直接打印更改的，会是"None"，需要直接打印列表本身
 ```
 
+*19.求平均值*
+```python
+a = np.array([[1,2,3],[4,5,6]])
+print(np.mean(a))
+#3.5
+print(np.mean(a,axis = 0))
+#[2.5 3.5 4.5]
+print(np.mean(a,axis = 1))
+#[2. 5.]
+print(np.mean(a, axis=0, keepdims=True))
+#[[2.5 3.5 4.5]]
+print(np.mean(a, axis=0, keepdims=True,dtype = int))
+#[[2 3 4]]
+
+#所有参数用法均与np.sum一样,不多赘述
