@@ -45,3 +45,7 @@
 
 *Q2: When it comes to convex functions,what will happen and if not?*
 ***
+*Lecture 6:*
+
+*Q1: When it comes to multiple dimensions,is there any difference?*
+***
