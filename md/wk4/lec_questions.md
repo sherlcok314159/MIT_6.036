@@ -17,8 +17,9 @@
 
 *Q1:LLC in a classifier way?*
 
-*Q2:How does the sigmoid function look in 1-dimensional space?*
+*Q2)A:How does the sigmoid function look in 1-dimensional space?*
 
+*Q2)B:Draw σ(10x+1),σ(−2x+1) and σ(2x−3)*
 ***
 
 *Note :regularization*
@@ -29,3 +30,10 @@
 
 *Q3:What's regularization?*
 ![](https://github.com/sherlcok314159/ML_learn/blob/main/Images/egularization.png)
+
+***
+*Lecture 4:*
+
+*Q1:What does the hypotheses really do?*
+
+*Q2:What's log loss or cross entropy loss?*
