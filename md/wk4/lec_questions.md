@@ -37,3 +37,11 @@
 *Q1:What does the hypotheses really do?*
 
 *Q2:What's log loss or cross entropy loss?*
+
+***
+*Lecture 5:*
+
+*Q1:What's the Gradient Descent algorithm?*
+
+*Q2:When it comes to convex functions,what will happen and if not?*
+***
