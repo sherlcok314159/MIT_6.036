@@ -49,3 +49,7 @@
 
 *Q1: When it comes to multiple dimensions,is there any difference?*
 ***
+
+*Lecture 7:*
+
+*Q1: If step size become bigger,what will happen?Is too big better?*
