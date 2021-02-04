@@ -44,6 +44,8 @@
 *Q1: What's the Gradient Descent algorithm?*
 
 *Q2: When it comes to convex functions,what will happen and if not?*
+
+*Q3: What solution we can do to solve global optimal problem instead of a local one?*
 ***
 *Lecture 6:*
 
@@ -52,4 +54,4 @@
 
 *Lecture 7:*
 
-*Q1: If step size become bigger,what will happen?Is too big better?*
+*Q1: If step size becomes bigger,what will happen?Is too big better?*
