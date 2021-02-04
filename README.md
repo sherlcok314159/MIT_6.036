@@ -21,6 +21,10 @@ ML是一门通过学习让机器能够预测数据的课程，漫天飞舞的数
   * *[Basic_Concepts](md/wk3/wk3_basic.md)*
   * *[HW & Exercises_Features](md/wk3/wk3_exercises.md)*
   * *[Lab](md/wk3/wk3_lab.md)*
+
+* *Week4: Margin Maximization*
+  
+  * *[Lectures questions](md/wk4/lec_questions.md)* 
 * *Also need to know*
    * *[Numpy](md/numpy.md)*
    * *[Matrix](md/matrix.md)*
