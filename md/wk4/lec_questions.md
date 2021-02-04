@@ -28,3 +28,4 @@
 *Q2:How can we describe the constant?*
 
 *Q3:What's regularization?*
+![](https://github.com/sherlcok314159/ML_learn/blob/main/Images/egularization.png)
