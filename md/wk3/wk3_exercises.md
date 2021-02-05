@@ -6,10 +6,10 @@
 
 *Q4:How to implement one-hot encoding?*
 
-*Q5:How to implement seperator which is through origin by improving dimensions?*    
+*Q5:How to implement separator which is through origin by improving dimensions?*    
 
 *Q6:How to generate specified length of one-hot encoding?*
 
 *Q7:How to deal with sign result which equals 0?*
 
-*Q8:Is there exist a value-label list that is not linear seperable by one-hot encoding?*
+*Q8:Is there exist a value-label list that is not linear separable by one-hot encoding?*

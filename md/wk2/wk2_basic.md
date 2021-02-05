@@ -13,7 +13,7 @@ def perceptron(T,D):
     return (th,th0)
 ```
 
-**Linear seperability**
+**Linear separability**
 
 **Test error**
 

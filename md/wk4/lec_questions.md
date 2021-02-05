@@ -4,9 +4,7 @@
 ***
 *Lecture 2*
 
-*Q1)A: What's 0-1 loss function?And what's the difference between it and score function?*
-
-*Q1)B: What's the 0-1 function in a seperator way?*
+*Q1: What's 0-1 loss function?And what's the difference between it and score function?*
 
 *Q2: What's the Linear Logistic Classifier?*
 
@@ -24,7 +22,7 @@
 
 *Note :regularization*
 
-*Q1: What's our way to find a best linear seperator?*
+*Q1: What's our way to find a best linear separator?*
 
 *Q2: How can we describe the constant?*
 
@@ -55,3 +53,13 @@
 *Lecture 7:*
 
 *Q1: If step size becomes bigger,what will happen?Is too big better?*
+
+***
+
+*Note:Application to logistic regression objective*
+
+*Q1: What's the linear logistic regression gradient descent?*
+
+*Q2: What's the sgd?*
+
+*Q3: Why is the sgd better than bgd?*
