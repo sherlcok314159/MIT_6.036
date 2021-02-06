@@ -11,3 +11,5 @@
 *Q6: What's 0-infinity loss?*
 
 *Q7: What's hinge loss?*
+
+*Q8: Induct the SVM?*

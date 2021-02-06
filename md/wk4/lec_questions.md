@@ -63,3 +63,6 @@
 *Q2: What's the sgd?*
 
 *Q3: Why is the sgd better than bgd?*
+
+***
+*Final :Tell me what you have learned in maximation margin?*
