@@ -272,7 +272,10 @@ print(data[:,0:1])
 
 #因为你没有用np.array
 data = np.array([[1,2,3],[4,5,6]])
+```
 
+```python
+#注意计算机中的运算逻辑，如果拿不准，一定要套括号   
 def sd(th, th0, x):
     return np.dot(th, x) + th0 / (np.sum(th * th) ** 0.5)
 #[[2.17157288]]
@@ -284,10 +287,20 @@ def sd(th, th0, x):
 #[[0.70710678]]
 #[[-1.41421356]]
 #[[1.41421356]]
-
-#注意计算机中的运算逻辑，如果拿不准，一定要套括号   
 ```
-
+```python
+#需要注意不同列表推导式生成的是列表不错，但两者具有不同的维度
+x = [range(100)]
+y = [i for i in range(100)]
+print(type(x))
+print(type(y))
+print(np.shape(x))
+print(np.shape(y))
+#<class 'list'>
+#<class 'list'>
+#(1, 100)
+#(100,)
+```
 *17.随机浮点数生成*
 ```python
 print(np.random.rand(3,2))
